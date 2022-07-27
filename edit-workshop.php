@@ -33,7 +33,7 @@
                                     </div>
                                     <div class="form-group mb-3">
                                         <label>Location</label>
-                                        <input type="text" name="location" value="<?=$getdata['w_name'];?>" required class="form-control">
+                                        <input type="text" name="location" value="<?=$getdata['location'];?>" required class="form-control">
                                     </div>
                                     <div class="form-group mb-3">
                                         <label>Contact Number</label>
