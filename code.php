@@ -8,16 +8,16 @@ if(isset($_POST['save_workshop'])){
     $w_name = $_POST['w_name'];
     $location = $_POST['location'];
     $phone = $_POST['phone'];
-    $open_at = $_POST['open_at'];
-    $close_at = $_POST['close_at'];
+    $latitude = $_POST['latitude'];
+    $longitude = $_POST['longitude'];
 
 
     $postData = [
         'w_name'=> $w_name,
         'location'=> $location,
         'phone'=> $phone,
-        'open_at'=> $open_at,
-        'close_at'=> $close_at,
+        'latitude'=> $latitude,
+        'longitude'=> $longitude,
     ];
     $ref_table = "workshops";
     $postRef_result = $database->getReference($ref_table)->push($postData);
@@ -39,16 +39,16 @@ if(isset($_POST['update_workshop']))
     $w_name = $_POST['w_name'];
     $location = $_POST['location'];
     $phone = $_POST['phone'];
-    $open_at = $_POST['open_at'];
-    $close_at = $_POST['close_at'];
+    $latitude = $_POST['latitude'];
+    $longitude = $_POST['longitude'];
 
 
     $updateData = [
         'w_name'=> $w_name,
         'location'=> $location,
         'phone'=> $phone,
-        'open_at'=> $open_at,
-        'close_at'=> $close_at,
+        'latitude'=> $latitude,
+        'longitude'=> $longitude,
     ];
     $ref_table = 'workshops/'.$key;
     $updatequery_result = $database->getReference($ref_table)->update($updateData);

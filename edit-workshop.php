@@ -40,12 +40,12 @@
                                         <input type="text" name="phone" value="<?=$getdata['phone'];?>" required class="form-control">
                                     </div>
                                     <div class="form-group mb-3">
-                                        <label>Opening Time</label>
-                                        <input type="text" name="open_at" value="<?=$getdata['open_at'];?>" required class="form-control">
+                                        <label>Latitude</label>
+                                        <input type="text" name="latitude" value="<?=$getdata['latitude'];?>" required class="form-control">
                                     </div>
                                     <div class="form-group mb-3">
-                                        <label>Closing Time</label>
-                                        <input type="text" name="close_at" value="<?=$getdata['close_at'];?>" required class="form-control">
+                                        <label>Longitude</label>
+                                        <input type="text" name="longitude" value="<?=$getdata['longitude'];?>" required class="form-control">
                                     </div>
                                     <div class="form-group mb-3">
                                         <button type="submit" class="btn btn-primary" name="update_workshop">Update</button>

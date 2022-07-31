@@ -27,12 +27,12 @@
                             <input type="text" name="phone" required class="form-control">
                         </div>
                         <div class="form-group mb-3">
-                            <label>Opening Time</label>
-                            <input type="text" name="open_at" required class="form-control">
+                            <label>Latitude</label>
+                            <input type="text" name="latitude" required class="form-control">
                         </div>
                         <div class="form-group mb-3">
-                            <label>Closing Time</label>
-                            <input type="text" name="close_at" required class="form-control">
+                            <label>Longitude</label>
+                            <input type="text" name="longitude" required class="form-control">
                         </div>
                         <div class="form-group mb-3">
                             <button type="submit" class="btn btn-primary" required name="save_workshop">Save</button>

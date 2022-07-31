@@ -28,8 +28,8 @@ include('includes/navbar.php');
                                 <th>Name</th>
                                 <th>Location</th>
                                 <th>Phone</th>
-                                <th>Opening Time</th>
-                                <th>Closing Time</th>
+                                <th>Latitude</th>
+                                <th>Longitude</th>
                                 <th>Edit</th>
                                 <th>Delete</th>
                             </tr>
@@ -50,8 +50,8 @@ include('includes/navbar.php');
                                                 <td><?=$row['w_name'];?></td>
                                                 <td><?=$row['location'];?></td>
                                                 <td><?=$row['phone'];?></td>
-                                                <td><?=$row['open_at'];?></td>
-                                                <td><?=$row['close_at'];?></td>
+                                                <td><?=$row['latitude'];?></td>
+                                                <td><?=$row['longitude'];?></td>
 
                                                 <td>
                                                     <a href="edit-workshop.php?id=<?= $key; ?>" class="btn btn-primary btn-sm">Edit</a>
